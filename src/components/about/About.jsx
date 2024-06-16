@@ -1,23 +1,27 @@
 import React from 'react';
 import "./about.css";
-import AboutImg from "../../assets/aboutBW.jpeg";
-import CV from "../../assets/Example-Cv.pdf";
+import AboutImg from "../../assets/about.jpeg";
+import CV from "../../assets/vinayakpakaresume.pdf";
 import Info from "./Info";
 
 const About = () => {
   return (
     <section className="about section" id="about">
         <h2 className="section__title">About Me</h2>
-        <span className="section__subtitle">A short introduction</span>
+        <span className="section__subtitle">This is Vinayak Paka - Web Developer, Aspiring Entrepreneur</span>
         <div className="about__container container grid">
             <img src={AboutImg} alt="about" className="about__img" />
             <div className="about__data">
                 <Info />
                 <p className="about__description">
-                    Finding work in algotrading as newbie.
+                I’m Vinayak Paka, a 17-year-old entrepreneur passionate about innovation and excellence. Academically, I achieved a perfect 10/10 GPA in 10th grade and 91.5% in 12th grade at Alphores Junior College. Recognized with the "Young Scientist Award" for developing an electric rocket and the "Young Leader Award" from the RSS, I excel in leadership and scientific contributions.
+
+My technical skills include web and graphic design, SEO, marketing, AutoCAD, photography, and video editing. As President of Volunteer Service Telangana and a leader in ABVP, I’ve honed my leadership and community outreach skills. Additionally, I won a gold medal in the 7th All India Open Karate Championship and was a semifinalist in the International Science Olympiad Foundation.
+
+Driven by growth and impact, I aim to make a positive societal difference.
                 </p>
                 <a download="" href={CV} className="button button--flex">
-                    Download CV work in progress
+                    Download My Resume
                     <svg
                         class="button__icon"
                         xmlns="http://www.w3.org/2000/svg"

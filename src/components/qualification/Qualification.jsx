@@ -12,7 +12,7 @@ const Qualification = () => {
     return (
     <section className="qualification section">
         <h2 className="section__title">Qualification</h2>
-        <span className="section__subtitle">My Journey</span>
+        <span className="section__subtitle">My Tech Journey</span>
 
         <div className="qualification__container container">
             <div className="qualification__tabs">
@@ -37,11 +37,11 @@ const Qualification = () => {
                             <span className="qualification__line"></span>
                         </div>
                         <div>
-                            <h3 className="qualification__title">Web Development</h3>
-                            <span className="qualification__subtitle">Scaler School Of Technolo</span>
+                            <h3 className="qualification__title">Computer Science</h3>
+                            <span className="qualification__subtitle">Scaler School Of Technology</span>
                             <div className="qualification__calendar">
                                 <HiOutlineCalendar className="qualification__calendar-icon" />
-                                2018-2021
+                                2023-2027
                             </div>
                         </div>
                     </div>
@@ -49,11 +49,11 @@ const Qualification = () => {
                 <div className={toggleState === 2 ? "qualification__content qualification__content-active": "qualification__content"}>
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">FreeLancer</h3>
+                            <h3 className="qualification__title">Junior Researcher</h3>
                             <span className="qualification__subtitle">Web Developer</span>
                             <div className="qualification__calendar">
                                 <HiOutlineCalendar className="qualification__calendar-icon" />
-                                2024-20..
+                                2023-2024
                             </div>
                         </div>
                         <div>
@@ -69,11 +69,10 @@ const Qualification = () => {
                             <span className="qualification__line"></span>
                         </div>
                         <div>
-                            <h3 className="qualification__title">FreeLancer</h3>
-                            <span className="qualification__subtitle">Algotrading</span>
+                            
                             <div className="qualification__calendar">
                                 <HiOutlineCalendar className="qualification__calendar-icon" />
-                                2024-20..
+                            
                             </div>
                         </div>
                     </div>

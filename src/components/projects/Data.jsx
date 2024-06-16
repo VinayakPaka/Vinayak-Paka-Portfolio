@@ -7,19 +7,19 @@ export const projectsData = [
     {
         id: 1,
         image: Project1,
-        title: "Project 1",
+        title: "Image Editor",
         category: "A",
     },
     {
         id: 2,
         image: Project2,
-        title: "Project 2",
+        title: "Shopping Cart",
         category: "B",
     },
     {
         id: 3,
         image: Project3,
-        title: "Project 3",
+        title: "Twitter",
         category: "C",
     },
 ];

@@ -1,4 +1,4 @@
-.testimonial__container {
+ .testimonial__container {
     width: 750px;
 }
 
@@ -35,7 +35,7 @@
 }
 
 /* BREAK POINTS */
-@media screen and (max-width: 992px) {
+ @media screen and (max-width: 992px) {
     .testimonial__container {
         width: initial;
     }
@@ -43,4 +43,4 @@
     .testimonial__card {
         padding: 1.25rem 1.5rem;
     }
-}
+ } 
